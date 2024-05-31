@@ -27,22 +27,32 @@ export default function Weather() {
         <h1>Barcelona</h1>
         <ul>
           <li>Friday, 14:00</li>
-          <li>Mostly Cloudy</li>
+          <li>
+            {" "}
+            <em> Mostly Cloudy </em>
+          </li>
         </ul>
         <div className="row">
-                  <div className="col-6">
-                      
+          <div className="col-6">
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               alt="Mostly Cloudy"
             />
-            <span className="temperature"> 23</span> <span className="unit"> °C</span>
+            <span className="temperature"> 23</span>{" "}
+            <span className="unit"> °C</span>
           </div>
           <div className="col-6">
             <ul>
-              <li>Pricipitation: 0 %</li>
-              <li>Humidity: 56 %</li>
-              <li>Wind: 27 km/h</li>
+              <li>
+                <strong>Pricipitation: </strong>0 %
+              </li>
+              <li>
+                {" "}
+                <strong>Humidity: </strong> 56 %
+              </li>
+              <li>
+                <strong>Wind: </strong> 27 km/h
+              </li>
             </ul>
           </div>
         </div>
