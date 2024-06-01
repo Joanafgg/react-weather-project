@@ -26,14 +26,14 @@ font-weight: 300;
 }
 
 .Weather img {
-    width: 40%;
+    width: 35%;
     margin-bottom: 35px;
     display: inline-block;
 }
 
 .Weather .temperature {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 68px;
     color: rgb(1, 29, 55);
     line-height: 64px;
 }
