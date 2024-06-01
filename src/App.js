@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/Joanafgg"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Joana Garcia{" "}
           </a>{" "}
@@ -20,7 +20,7 @@ export default function App() {
           <a
             href="https://github.com/Joanafgg/react-weather-project"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {""} on Github
           </a>
