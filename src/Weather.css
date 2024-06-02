@@ -3,7 +3,7 @@
      margin: 80px 20px auto;
   max-width: 800px;
   border-radius: 5px;
-  padding: 10px 40px;
+  padding: 50px 40px;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -30,25 +30,25 @@
 font-weight: 300;
 }
 
-.Weather img {
-    width: 80px;
+.Weather canvas {
+    margin-top: 5px;
     display: inline-block;
-    margin-bottom: 30px;
 }
 
 .Weather .temperature {
     font-weight: 500;
-    font-size: 68px;
-    color: rgb(14, 91, 138);
+    font-size: 75px;
+    color: grey;
     line-height: 64px;
+
 }
 
 .Weather .unit {
     position: relative;
     font-size: 18px;
-    top: -34px;
+    top: -40px;
     line-height: 1;
-        color: rgb(14, 91, 138);
+        color: grey;
 margin-left: -5px;
 }
 
